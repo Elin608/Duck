@@ -7,7 +7,6 @@ body{
     margin-top: 153px;
     justify-content: center;
     align-items: center;
-    
     }
     .form-container{
         display: flex;
@@ -15,14 +14,13 @@ body{
         height: 594px;
         justify-content: center;
         margin: auto;
-        
     }
     .red-container{
         display: flex;
-        
-        justify-content: center;
+        flex-direction: column;
+        justify-content: flex-start;
         align-items: flex-start;
-        padding-left: 20px;
+        padding-left: 60px;
         width: 609px;
         height: 594px;
          color:white;
@@ -31,61 +29,53 @@ body{
     }
     .orange-container{
         width: 345px;
-    
         background-color: orange;
         display: flex;
         justify-content: center;
-        
-     }
-     .form-content p{
-        position: relative;
-        left: -40%;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        border: none;
-        
-        }
-        
-        #fname,#email, #regarding, #Message{
+    }
+    #fname,#email, #regarding, #Message{
       
-        
-            color: white;
-            background-color: transparent;
-            border: none;
-            border-bottom: solid #468189;
-        }
-        
-        
-
-
-
-
-
-     .orange-container img{
+        width: 100%;
+        display: block;
+        color: white;
+        background-color: transparent;
+        border: none;
+        border-bottom: solid #468189;
+    }
+    .orange-container img{
         width:150%;
         position: relative;
         left: -200px;
-        top:140px;
-         }
+        top:40px;
+    }
         
-         input[type="submit"]{
-            width: 200px;
-            height: 50px;
-            background-color: #468189;
-            color: white;
-            border-radius:20px ;
-            border-style: none;
-            padding: 10px;
-            position: relative;
-            top: 20px;
-            left: -20px;
-            cursor: pointer;
+    input[type="submit"]{
+         width: 200px;
+        height: 50px;
+        background-color: #468189;
+        color: white;
+        border-radius:20px ;
+        border-style: none;
+        padding: 10px;
+        position: relative;
+        top: 20px;
+        left: -20px;
+        cursor: pointer;
             
-         }
-          input[type="submit"]:hover{
-            background-color:#FFB039 ;
-          }
+    }
+    input[type="submit"]:hover{
+        background-color:#FFB039 ;
+    }
+    label{
+        display: block;
+        color: white;
+        position: relative;
+        margin-bottom: 5px;
+        font-size: 18px;
+        margin-top: 20px;
+        padding-top: 30px;
 
+    }
           
           
         
