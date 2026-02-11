@@ -42,12 +42,25 @@ body{
         left: -40%;
         padding-top: 10px;
         padding-bottom: 10px;
-        border-bottom:solid  #9DBEBB;
-        border-width: 1px;
+        border: none;
         
-    
+        }
         
-     }
+        #fname,#email, #regarding, #Message{
+      
+        
+            color: white;
+            background-color: transparent;
+            border: none;
+            border-bottom: solid #468189;
+        }
+        
+        
+
+
+
+
+
      .orange-container img{
         width:150%;
         position: relative;
@@ -66,9 +79,22 @@ body{
             position: relative;
             top: 20px;
             left: -20px;
+            cursor: pointer;
+            
          }
-    
+          input[type="submit"]:hover{
+            background-color:#FFB039 ;
+          }
 
+          
+          
+        
+
+            
+         
+    
+        
+        
     
         
 
